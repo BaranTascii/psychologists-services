@@ -1,0 +1,112 @@
+.registerModal h1 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -2%;
+  color: #191a15;
+  margin: 20px 64px 0 64px;
+}
+
+.registerModal p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: rgba(25, 26, 21, 0.5);
+  margin: 22px 64px 0 64px;
+}
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.inputRegister {
+  position: relative;
+}
+
+.inputRegister label {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.inputRegister input {
+  width: 438px;
+  height: 52px;
+  border: 1px solid rgba(25, 26, 21, 0.1);
+  border-radius: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  font-style: regular;
+  font-size: 16px;
+  outline: none;
+  margin: 0 64px;
+  margin-top: -10px;
+  color: #191a15;
+}
+
+.inputRegister img {
+  position: absolute;
+  top: 20%;
+  right: 80px;
+  cursor: pointer;
+}
+
+.registerButton {
+  width: 438px;
+  height: 52px;
+  border: none;
+  border-radius: 30px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -1%;
+  font-style: medium;
+  font-size: 16px;
+  outline: none;
+  background-color: #54be96;
+  color: #fbfbfb;
+  cursor: pointer;
+  margin: 10px 64px 64px 64px;
+}
+
+.registerButton:hover {
+  background-color: #36a379;
+}
+
+.inputRegister p {
+  color: red;
+  position: absolute;
+  font-size: 14px;
+  left: 5px;
+  top: 25px;
+}
+
+@media (max-width: 1024px) {
+  .inputRegister input {
+    width: 90%;
+    max-width: 380px;
+  }
+
+  .registerButton {
+    width: 90%;
+    max-width: 380px;
+  }
+}
+
+@media (max-width: 767px) {
+  .inputRegister input {
+    width: 90%;
+    max-width: 280px;
+  }
+
+  .registerButton {
+    width: 90%;
+    max-width: 280px;
+  }
+}
