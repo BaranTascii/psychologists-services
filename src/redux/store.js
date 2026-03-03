@@ -10,9 +10,9 @@ import {
   REGISTER,
 } from "redux-persist";
 import storage from "redux-persist/lib/storage";
-import authReducer from "./auth/slice";
-import psychologistsReducer from "./psychologists/slice";
-import favoritesReducer from "./favorites/slice";
+import authReducer from "./auth/slice.js";
+import psychologistsReducer from "./psychologists/slice.js";
+import favoritesReducer from "./favorites/slice.js";
 
 const authPersistConfig = {
   key: "auth",

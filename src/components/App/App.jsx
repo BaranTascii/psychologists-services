@@ -1,11 +1,11 @@
 import { Route, Routes } from "react-router-dom";
 import { lazy, Suspense, useEffect } from "react";
-import { Loader } from "../Loader/Loader";
-import PrivateRoute from "../../routes/PrivateRoute";
+import { Loader } from "../Loader/Loader.jsx";
+import PrivateRoute from "../../routes/PrivateRoute.jsx";
 import { useDispatch } from "react-redux";
-import { setUser, clearUser } from "../../redux/auth/slice";
-import { onAuthStateChanged } from "firebase/auth";
-import { auth } from "../../firebase";
+import { setUser, clearUser } from "../../redux/auth/slice.js";
+import { onAuthStateChanged } from "firebase/auth.js";
+import { auth } from "../../firebase.js";
 
 const HomePage = lazy(() => import("../../pages/HomePage/HomePage"));
 const PsychologistsPage = lazy(
