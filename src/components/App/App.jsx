@@ -4,7 +4,7 @@ import { Loader } from "../Loader/Loader.jsx";
 import PrivateRoute from "../../routes/PrivateRoute.jsx";
 import { useDispatch } from "react-redux";
 import { setUser, clearUser } from "../../redux/auth/slice.js";
-import { onAuthStateChanged } from "firebase/auth.js";
+import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "../../firebase.js";
 
 const HomePage = lazy(() => import("../../pages/HomePage/HomePage"));
