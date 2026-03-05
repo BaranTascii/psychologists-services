@@ -1,0 +1,83 @@
+.filterWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-left: 120px;
+  margin-bottom: 32px;
+  margin-top: 64px;
+}
+
+.filterWrapper span {
+  font-weight: 500;
+  font-size: 14px;
+  font-style: medium;
+  line-height: 18px;
+  letter-spacing: 0%;
+  color: #8a8a89;
+  margin-left: 40px;
+}
+
+.filterDropdown {
+  width: 226px;
+  height: 48px;
+  border: none;
+  border-radius: 14px;
+  background-color: #54be96;
+  color: #fbfbfb;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 0 16px;
+  margin-left: 40px;
+  cursor: pointer;
+  outline: none;
+  appearance: none;
+  background-image: url("/icons/filterDown.svg");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  background-size: 15px;
+}
+
+.filterDropdown option {
+  color: #191a15;
+  background-color: #fbfbfb;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .filterWrapper {
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+
+  .filterWrapper span {
+    margin-left: 0;
+  }
+
+  .filterDropdown {
+    width: 226px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .filterWrapper {
+    margin-left: 16px;
+    margin-top: 20px;
+  }
+
+  .filterWrapper span {
+    margin-left: 0;
+  }
+
+  .filterDropdown {
+    width: 226px;
+    margin-left: 0;
+  }
+}
