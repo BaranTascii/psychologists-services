@@ -33,7 +33,7 @@ const Modal = ({ children, isOpen, onClose }) => {
     <div className={css.modal} onClick={handleBackDropClick}>
       <div className={css.modalContent}>
         <button className={css.closeButton} onClick={onClose}>
-          <img src="../../../public/icons/x.svg" alt="close" />
+          <img src="/icons/x.svg" alt="close" />
         </button>
         {children}
       </div>

@@ -86,10 +86,7 @@ const Navigation = () => {
             <div className={css.userContainer}>
               {user ? (
                 <div className={css.userBlock}>
-                  <img
-                    src="../../../public/icons/image.svg"
-                    alt="user avatar"
-                  />
+                  <img src="/icons/image.svg" alt="user avatar" />
                   <span>{user.displayName}</span>
                   <button className={css.buttonOut} onClick={handleLogoutClick}>
                     Log out

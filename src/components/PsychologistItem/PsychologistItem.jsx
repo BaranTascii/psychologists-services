@@ -82,7 +82,7 @@ const PsychologistItem = ({ psychologist }) => {
         </div>
         <div className={css.rightWrapper}>
           <div className={css.ratingWrapper}>
-            <img src="../../../public/icons/Star.svg" alt="star" />
+            <img src="/icons/Star.svg" alt="star" />
             <p>Rating: {rating}</p>
           </div>
           <div className={css.buttonWrapper}>
@@ -91,7 +91,7 @@ const PsychologistItem = ({ psychologist }) => {
             </p>
             <button onClick={handleFavorite} className={css.buttonFav}>
               <img
-                src={`../../../public/icons/${isFavorite ? "filledHeart" : "emptyHeart"}.svg`}
+                src={`/icons/${isFavorite ? "filledHeart" : "emptyHeart"}.svg`}
                 alt="Favourite"
               />
             </button>

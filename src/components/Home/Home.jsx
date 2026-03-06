@@ -27,20 +27,12 @@ const Home = () => {
         </div>
         <div className={css.imgWrapper}>
           <img src={background} alt="background" className={css.bgPicture} />
-          <img
-            src="../../../public/icons/block.svg"
-            alt="block"
-            className={css.block}
-          />
-          <img
-            src="../../../public/icons/Group.svg"
-            alt="group"
-            className={css.group}
-          />
+          <img src="/icons/block.svg" alt="block" className={css.block} />
+          <img src="/icons/Group.svg" alt="group" className={css.group} />
           <div className={css.rectangleStack}>
-            <img src="../../../public/icons/Rectangle.svg" alt="rectangle" />
+            <img src="/icons/Rectangle.svg" alt="rectangle" />
             <img
-              src="../../../public/icons/question.svg"
+              src="/icons/question.svg"
               alt="question"
               className={css.question}
             />

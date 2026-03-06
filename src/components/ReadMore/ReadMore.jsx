@@ -39,7 +39,7 @@ const ReadMore = ({ psychologist }) => {
                   {review.reviewer || "Anonymous"}
                 </div>
                 <div className={css.ratingRev}>
-                  <img src="../../../public/icons/Star.svg" alt="star" />
+                  <img src="/icons/Star.svg" alt="star" />
                   <p>{review.rating}</p>
                 </div>
               </div>
