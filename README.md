@@ -1,16 +1,102 @@
-# React + Vite
+# Psychologists Services
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Psychologists Services is a modern web application that allows users to explore psychologists, view their profiles, add them to favorites, and book appointments.
 
-Currently, two official plugins are available:
+The project was built using React and Firebase, focusing on a clean interface, user authentication, and interactive functionality.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://your-demo-link.com
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## About the Project
+
+This application helps users easily find psychologists and explore their professional profiles. Users can browse psychologists, filter them based on different criteria, add them to their favorites, and schedule appointments.
+
+The platform also includes authentication functionality so users can securely manage their favorite psychologists.
+
+---
+
+## Features
+
+- User authentication (registration, login, logout)
+- Psychologists listing with detailed information
+- Sorting by name, price, and rating
+- Add and remove psychologists from favorites
+- Appointment request modal
+- Responsive design (mobile, tablet, desktop)
+- Modal windows with ESC / backdrop closing
+- Persistent favorites after page refresh
+
+---
+
+## Tech Stack
+
+- React
+- React Router
+- Firebase Authentication
+- Firebase Realtime Database
+- React Hook Form
+- Yup
+- Vite
+- CSS Modules
+
+---
+
+## Installation
+
+Clone the repository
+
+
+git clone https://github.com/BaranTascii/psychologists-services.git
+
+
+Go to project folder
+
+
+cd psychologists-services
+
+
+Install dependencies
+
+
+npm install
+
+
+Run development server
+
+
+npm run dev
+
+
+---
+
+## Environment Variables
+
+Create a `.env` file in the root directory and add the following variables:
+
+
+VITE_API_KEY=your_api_key
+VITE_AUTH_DOMAIN=your_auth_domain
+VITE_DATABASE_URL=your_database_url
+VITE_PROJECT_ID=your_project_id
+VITE_STORAGE_BUCKET=your_storage_bucket
+VITE_MESSAGING_SENDER_ID=your_sender_id
+VITE_APP_ID=your_app_id
+
+
+---
+
+## Screenshots
+
+You can add screenshots of the application here to demonstrate the main functionality and interface.
+
+---
+
+## Author
+
+Baran Taşcı  
+GitHub: https://github.com/BaranTascii
