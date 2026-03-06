@@ -8,7 +8,7 @@ The project was built using React and Firebase, focusing on a clean interface, u
 
 ## Live Demo
 
-https://your-demo-link.com
+pyschologistsservicesproject.netlify.app
 
 ---
 
@@ -79,22 +79,16 @@ npm run dev
 Create a `.env` file in the root directory and add the following variables:
 
 
-VITE_API_KEY=your_api_key
-VITE_AUTH_DOMAIN=your_auth_domain
-VITE_DATABASE_URL=your_database_url
-VITE_PROJECT_ID=your_project_id
-VITE_STORAGE_BUCKET=your_storage_bucket
-VITE_MESSAGING_SENDER_ID=your_sender_id
-VITE_APP_ID=your_app_id
-
-
----
-
-## Screenshots
-
-You can add screenshots of the application here to demonstrate the main functionality and interface.
+- VITE_API_KEY=your_api_key
+- VITE_AUTH_DOMAIN=your_auth_domain
+- VITE_DATABASE_URL=your_database_url
+- VITE_PROJECT_ID=your_project_id
+- VITE_STORAGE_BUCKET=your_storage_bucket
+- VITE_MESSAGING_SENDER_ID=your_sender_id
+- VITE_APP_ID=your_app_id
 
 ---
+
 
 ## Author
 
