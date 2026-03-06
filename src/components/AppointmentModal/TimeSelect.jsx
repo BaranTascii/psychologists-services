@@ -45,7 +45,7 @@ const TimeSelect = ({ field, form }) => {
     <div className={css.timeContainer} ref={dropdownRef}>
       <div className={css.timeSelect} onClick={() => setIsOpen(!isOpen)}>
         {selectedTime}
-        <img src="/icons/clock.svg" alt="clock" />
+        <img src="../../../public/icons/clock.svg" alt="clock" />
       </div>
 
       {isOpen && (

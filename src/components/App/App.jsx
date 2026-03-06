@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import { lazy, Suspense, useEffect } from "react";
-// import { Loader } from "../Loader/Loader.jsx";
+import { Loader } from "../Loader/Loader.jsx";
 import PrivateRoute from "../../routes/PrivateRoute.jsx";
 import { useDispatch } from "react-redux";
 import { setUser, clearUser } from "../../redux/auth/slice.js";

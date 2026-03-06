@@ -74,7 +74,11 @@ const RegistrationModal = ({ onSuccess }) => {
             />
             <img
               onClick={togglePassword}
-              src={showPassword ? "/icons/eye.svg" : "/icons/eye-off.svg"}
+              src={
+                showPassword
+                  ? "../../../public/icons/eye.svg"
+                  : "../../../public/icons/eye-off.svg"
+              }
               alt="show"
             />
             {errors.password && <p>{errors.password.message}</p>}
